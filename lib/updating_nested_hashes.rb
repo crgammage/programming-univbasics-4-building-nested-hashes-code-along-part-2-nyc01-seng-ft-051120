@@ -60,7 +60,8 @@ def add_characters
    #   - The second hash should have the :name key set to "Apothecary"
    # Code your solution here:
 def update_status
-  :capulet[:hero]
+  :capulet[:heroine][:status] = "dead"
+  :montague[:hero][:status] = "dead"
 end
 
 

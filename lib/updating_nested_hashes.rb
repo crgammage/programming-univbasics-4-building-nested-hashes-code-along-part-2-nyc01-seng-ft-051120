@@ -60,9 +60,10 @@ def add_characters
    #   - The second hash should have the :name key set to "Apothecary"
    # Code your solution here:
 def update_status
-  :capulet[:heroine][:status] = "dead"
-  :montague[:hero][:status] = "dead"
-  puts epic_tragedy
+  epic_tragedy[:capulet][:heroine][:status] = "dead"
+  epic_tragedy[:montague][:hero][:status] = "dead"
+  puts epic_tragedy[:capulet][:heroine][:status]
+  puts epic_tragedy[:montague][:hero][:status]
 end
 
 def fix_roles

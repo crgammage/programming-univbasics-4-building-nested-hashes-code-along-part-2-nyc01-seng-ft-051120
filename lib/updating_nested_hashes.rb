@@ -66,7 +66,7 @@ end
 
 def fix_roles
   epic_tragedy[:additional_characters] = Array.new
-  epic_tragedy[:additional_characters] << 
+  epic_tragedy[:additional_characters] << {name: }
 
 
 

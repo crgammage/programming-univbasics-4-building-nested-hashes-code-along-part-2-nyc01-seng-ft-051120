@@ -62,8 +62,6 @@ def add_characters
 def update_status
   epic_tragedy[:capulet][:heroine][:status] = "dead"
   epic_tragedy[:montague][:hero][:status] = "dead"
-  puts epic_tragedy[:capulet][:heroine][:status]
-  puts epic_tragedy[:montague][:hero][:status]
 end
 
 def fix_roles

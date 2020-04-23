@@ -60,6 +60,15 @@ def add_characters
    #   - The second hash should have the :name key set to "Apothecary"
    # Code your solution here:
 def update_status
+  :montague => {
+     :patriarch => {name: "Lord Montague", age: "53"},
+     :matriarch => {name: "Lady Montague", age: "54"},
+     :hero => {name: "Romeo", age: "15", status: "alive"},
+     :hero_friends => [
+        {name: "Benvolio", age: "17", attitude: "worried"},
+        {name: "Mercutio", age: "18", attitude: "hot-headed"}
+     ]
+  },
   epic_tragedy[:capulet][:heroine][:status] = "dead"
   epic_tragedy[:montague][:hero][:status] = "dead"
 end

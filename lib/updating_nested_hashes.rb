@@ -65,7 +65,8 @@ def update_status
 end
 
 def fix_roles
-  
+  epic_tragedy[:additional_characters] = Array.new
+  epic_tragedy[:additional_characters] << 
 
 
 

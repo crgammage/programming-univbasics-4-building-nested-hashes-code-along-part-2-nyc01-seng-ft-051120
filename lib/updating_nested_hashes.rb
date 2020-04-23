@@ -64,7 +64,7 @@ def update_status
   :montague[:hero][:status] = "dead"
 end
 
-
+def fix_roles
 
 
 
